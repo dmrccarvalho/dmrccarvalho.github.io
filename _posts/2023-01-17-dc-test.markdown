@@ -1,0 +1,43 @@
+---
+# _posts/2023-01-17-dc-test.markdown
+layout: post
+title:  DC Test
+date:   2023-01-17 11:52:00 +0000
+categories: jekyll update dctest
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.
+image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821647/theme6_qeeojf.jpg # NB: The recommended image resolution is 760x399
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821647/theme6_qeeojf.jpg # NB: The recommended image resolution is 380x200
+category: blog
+tags:
+  - welcome
+  - blog
+author: Diogo Carvalho
+paginate: false # To break your post into pages, set the property paginate to true and use the divider --page-break-- where you want to break it.
+# NB: The template uses the jekyll-paginate-content, which is not supported for GitHub Pages. If you need that feature, please deploy somewhere else like Netlify.
+
+---
+
+Scala code snippets:
+
+{% highlight scala %}
+val myMap = Map("a" -> 42, "b" -> 43)
+def getMapValue(s: String): String = {
+  myMap get s match {
+    case Some(nb) => "Value found: " + nb
+    case None => "No value found"
+  }
+}
+getMapValue("a")  // "Value found: 42"
+getMapValue("c")  // "No value found"
+{% endhighlight %}
+
+--page-break--
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
