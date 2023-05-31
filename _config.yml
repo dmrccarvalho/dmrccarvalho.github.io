@@ -27,8 +27,8 @@ menu:
     url: /feed.xml
 
 # Build settings
-theme: minima
-#theme: jekflix
+#theme: minima
+remote_theme: jekflix
 plugins:
   - jekyll-feed
 
