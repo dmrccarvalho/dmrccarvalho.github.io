@@ -38,3 +38,7 @@ gem "jekyll-paginate"
 gem "jekyll-paginate-content"
 gem "kramdown-parser-gfm"
 gem 'github-pages', '~> 227'
+
+gem "kramdown"
+gem "rouge"
+gem "json"
