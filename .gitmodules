@@ -1,0 +1,3 @@
+[submodule "theme/jekflix"]
+	path = theme/jekflix
+	url = https://github.com/thiagorossener/jekflix-template.git
