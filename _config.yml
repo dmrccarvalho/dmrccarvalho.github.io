@@ -29,7 +29,7 @@ menu:
 # Build settings
 #theme: minima
 #theme: jekflix
-remote_theme: thiagorossener/jekflix-template
+remote_theme: dmrccarvalho/jekflix-template
 plugins:
   - jekyll-feed
 
@@ -103,3 +103,4 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-paginate-content
+  - jekyll-remote-theme
