@@ -15,7 +15,7 @@ tags:
   - jekyll
   - theme
   - netlify
-show_hero: false
+show_hero: true
 menu:
   - title: Home
     url: /
@@ -39,7 +39,7 @@ exclude:
   - jekflix_config.yml
 
 # Formspree (https://formspree.io/)
-formspree_form_id: 
+formspree_form_id: mgebgknl
 
 # Disqus (https://disqus.com/)
 disqus_username: 
