@@ -1,12 +1,19 @@
 ---
+date:   2023-01-17 11:48:18
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2023-01-17 11:48:18 +0000
-categories: jekyll update
+title:  Welcome to Jekyll!
+subtitle: 
+description: 
 category: blog
+categories: jekyll update
+tags:
+  - css
+  - tips
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1506079212/jekflix-capa_vfhuzh.png
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1506079212/jekflix-capa_vfhuzh.png
+author: dcarvalho
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
