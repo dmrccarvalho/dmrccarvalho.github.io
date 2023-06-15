@@ -42,3 +42,4 @@ gem 'github-pages', '~> 227'
 gem "kramdown"
 gem "rouge"
 gem "json"
+gem "webrick", "~> 1.8"
