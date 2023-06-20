@@ -9,3 +9,8 @@ $texts: #333333;		/* Color used in texts overall. */
 
 @import "jekflix";
 
+footer {
+	p {
+		display: none;
+	}
+}
