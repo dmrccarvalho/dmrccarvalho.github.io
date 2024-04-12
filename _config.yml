@@ -5,7 +5,7 @@ email: dmrccarvalho[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog of Diogo Carvalho, a Software Engineer that loves software and technology, but also music, motorcycles, and boardgames.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dmrccarvalho.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 tags:
   - blog
